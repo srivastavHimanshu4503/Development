@@ -1,0 +1,19 @@
+table {
+    border: 2px solid black;
+}
+th {
+    border: 2px solid black;
+    text-align: center;
+}
+td {
+    border: 2px solid black;
+    text-align: center;
+}
+#unordered {
+    border: 4px solid blue;
+    background-color: lightblue;
+}
+#ordered {
+    border: 5px solid black;
+    background-color: rgb(242, 201, 251);
+}
