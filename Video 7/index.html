@@ -1,51 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Introduction to Forms</title>
 </head>
+
 <body>
     <h1>This form is here to show case as form example: </h1>
-    <div>
-        <label for="username">Enter your user name: </label>
-        <input type="text" name="username" id="username">
-    </div>
-    <div>
-        <label for="usernmail">Enter your user email: </label>
-        <input type="email" name="usernmail" id="usernmail">
-    </div>
-    <div>
-        <label for="usercontact">Enter your contact details: </label>
-        <input type="tel" name="usercontact" id="usercontact">
-    </div>
-    <div>
-        <label for="gender">Choose your gender: </label>
-        <input type="radio" name="gender" id="Male">
-        <label for="Male">Male</label>
-        <input type="radio" name="gender" id="Female">
-        <label for="Female">Female</label>
-    </div>
-    <div>
-        <label for="fav">Choose your favourite programming language: </label>
-        <input type="checkbox" name="Python" id="Python">
-        <label for="Python">Python</label>
-        <input type="checkbox" name="Javascript" id="Javascript">
-        <label for="Javascript">Javascript</label>
-        <input type="checkbox" name="Cpp" id="Cpp">
-        <label for="Cpp">Cpp</label>
-    </div>
-    <div>
-        <!-- label jis element ke liye hoti hai us element ki id and for same honi chahiye -->
-        <label for="fruits">Choose your favourite fruits: </label>
-        <select name="fruits" id="fruits">
-            <option value="Apple">Apple</option>
-            <option value="Orange">Orange</option>
-            <option value="Watermelon">Watermelon</option>
-        </select>
-    </div>
-    <div>
-        <textarea name="comment" id="comment" placeholder="Enter your comments here..." rows="8" cols="40"></textarea>
-    </div>
+    <form action="post">
+        <div>
+            <label for="username">Enter your user name: </label>
+            <input type="text" name="username" id="username">
+        </div>
+        <div>
+            <label for="usernmail">Enter your user email: </label>
+            <input type="email" name="usernmail" id="usernmail">
+        </div>
+        <div>
+            <label for="usercontact">Enter your contact details: </label>
+            <input type="tel" name="usercontact" id="usercontact">
+        </div>
+        <div>
+            <label for="gender">Choose your gender: </label>
+            <input type="radio" name="gender" id="Male">
+            <label for="Male">Male</label>
+            <input type="radio" name="gender" id="Female">
+            <label for="Female">Female</label>
+        </div>
+        <div>
+            <label for="fav">Choose your favourite programming language: </label>
+            <input type="checkbox" name="Python" id="Python">
+            <label for="Python">Python</label>
+            <input type="checkbox" name="Javascript" id="Javascript">
+            <label for="Javascript">Javascript</label>
+            <input type="checkbox" name="Cpp" id="Cpp">
+            <label for="Cpp">Cpp</label>
+        </div>
+        <div>
+            <!-- label jis element ke liye hoti hai us element ki id and for same honi chahiye -->
+            <label for="fruits">Choose your favourite fruits: </label>
+            <select name="fruits" id="fruits">
+                <option value="Apple">Apple</option>
+                <option value="Orange">Orange</option>
+                <option value="Watermelon">Watermelon</option>
+            </select>
+        </div>
+        <div>
+            <textarea name="comment" id="comment" placeholder="Enter your comments here..." rows="8"
+                cols="40"></textarea>
+        </div>
+    </form>
 </body>
+
 </html>
