@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Exercise 2</title>
+    <style>
+        p {
+            background-color: blue;
+            color: white;
+        }
+
+        div p:first-child {
+            background-color: yellow;
+            color: red;
+        }
+
+        #content:target {
+            background: pink;
+            color: navy;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam deserunt quae esse doloribus perspiciatis
+            quaerat id, excepturi aliquid necessitatibus nobis rerum exercitationem repellendus veniam aliquam natus
+            cumque harum nesciunt eum deleniti. Corporis quis inventore, vitae cupiditate error aspernatur! Fuga
+            temporibus aut ipsam illum consectetur velit?</p>
+        <p>I am second para</p>
+        <p>I am third para</p>
+    </div>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam deserunt quae esse doloribus perspiciatis
+            quaerat id, excepturi aliquid necessitatibus nobis rerum exercitationem repellendus veniam aliquam natus
+            cumque harum nesciunt eum deleniti. Corporis quis inventore, vitae cupiditate error aspernatur! Fuga
+            temporibus aut ipsam illum consectetur velit?</p>
+        <p>I am second para</p>
+        <p id="content">I am third para</p>
+    </div>
+</body>
+
+</html>
