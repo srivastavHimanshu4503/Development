@@ -44,9 +44,10 @@ img {
 #read button {
     border: 2px solid white;
     background-color: #E0EFFF;
-    font-weight: 600;
+    font-weight: bold;
     color: #439BFF;
     border-radius: 35px;
-    padding: 15px 25px;
+    padding: 15px 35px;
+    font-size: 12px;
     cursor: pointer;
 }
