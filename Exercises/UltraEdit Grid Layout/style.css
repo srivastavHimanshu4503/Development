@@ -95,8 +95,9 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     text-align: center; 
-    width: 960px;
+    width: 80vw;
 }
 
 #content-heading {
@@ -132,9 +133,10 @@ main {
 }
 
 #versionInfo {
-    width: 100%;
+    width: 66vw;
     display: flex;
     align-items: center;
+    justify-content: flex-start;
     column-gap: 25px;
     font-size: 24px;
     margin: 0 0 28px;
@@ -142,7 +144,6 @@ main {
 
 #versionInfo img {
     position: relative;
-    /* right: 18px; */
     bottom: 0;
 }
 
@@ -152,7 +153,6 @@ main {
 
 #versionh3 {
     position: relative;
-    /* right: 11px; */
     bottom: 1px;
 }
 
@@ -174,7 +174,6 @@ main {
 }
 
 .btn {
-    /* border: 1px solid black; */
     width: 270px;
     display: flex;
     flex-direction: column;
