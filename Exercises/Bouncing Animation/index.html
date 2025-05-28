@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bouncing Animation</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 100vw;
+            height: 600px;
+            background-color: blue;
+            position: relative;
+        }
+
+        .box {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background-color: red;
+            animation: JumpingX 3s linear infinite, JumpingY 1s ease-out infinite alternate;
+        }
+
+        @keyframes JumpingX {
+            from {
+                left: 0;
+            }
+            to {
+                left: 82%;
+            }
+        }
+
+        @keyframes JumpingY {
+            from {
+                bottom: 0;
+            }
+            to {
+                bottom: 82%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box"></div>
+    </div>
+</body>
+</html>
